@@ -132,6 +132,9 @@ img{
 header{
   position: relative;
 }
+.color-yellow{
+  color: #e61554;
+}
 
 .item-1{
  position: absolute;
@@ -542,6 +545,8 @@ p.error{
 }
 .section-7 h6{
   margin-bottom: 30px;
+  position: relative;
+  z-index: 2;
 }
 .section-7 .md-left{
   width: 48%;
