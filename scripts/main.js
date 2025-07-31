@@ -106,7 +106,7 @@ $(document).ready(function() {
         const $targetSection = $(targetId);
 
         if ($targetSection.length) { 
-            const scrollTarget = $targetSection.offset().top;
+            const scrollTarget = $targetSection.offset().top - 80;
 
             $('html, body').stop().animate({ 
                 scrollTop: scrollTarget
@@ -119,8 +119,3 @@ $(document).ready(function() {
 });
 
 
-const video = document.getElementsByClassName("myVideo");
-
-  video.addEventListener('loadedmetadata', () => {
-    video.currentTime = 1; // nhảy đến giây thứ 3
-  });

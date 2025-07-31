@@ -119,7 +119,7 @@ input[type=submit] {
         display: block;
     }
     body{
-        font-size: calc(8px + 1vw);
+        font-size: calc(7px + 1vw);
     }
 }
 img{
@@ -447,9 +447,7 @@ p.error{
   margin-bottom: 20px;
 }
 .section-3 .main-video{
-  width: 60%;
-  display: table;
-  margin: 0 auto 20px auto;
+  margin-bottom: 20px;
 }
 .section-3 .md-slide .item .video-container{
   margin-bottom: 20px;
@@ -602,7 +600,7 @@ p.error{
 .section-7 .md-right .top-content h6{
   font-size: calc(4px + 1vw);
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .section-7 .md-right .bot-content .md-col{
   margin-bottom: 10px;
@@ -682,7 +680,7 @@ p.error{
     width: 100%;
   }
   .section-7 .md-right .top-content h6{
-    font-size: calc(8px + 1vw);
+    font-size: calc(7px + 1vw);
   }
   .section-7 h6 span{
     display: inline-block;
@@ -719,5 +717,8 @@ p.error{
   }
   .item-7{
     top: 99.4%;
+  }
+  .section-6 .module-page .md-right p span{
+    display: block;
   }
 }
